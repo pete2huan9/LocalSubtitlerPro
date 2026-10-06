@@ -1,0 +1,14 @@
+{
+  "whisper_model": "large-v3-turbo",
+  "language": "ja",
+  "device": "cpu",
+  "compute_type": "int8",
+  "cpu_threads": 12,
+  "vad_filter": false,
+  "initial_prompt": "AKB48, 成田香姫奈, 本田仁美, ひーさん, 村山彩希, 推し, 推しメン, 劇場公演, 休養, 選抜, センター, 総選挙, 握手会, あの, そうなんですよ, 嬉しかったです, テレビ, 携帯",
+  "llm_model": "qwen2.5:14b",
+  "ollama_url": "http://127.0.0.1:11434",
+  "batch_size": 8,
+  "bilingual": true,
+  "output_format": "mkv"
+}
